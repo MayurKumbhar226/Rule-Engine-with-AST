@@ -75,9 +75,10 @@ Evaluate Rule: Enter JSON data in the textarea (e.g., {"age": 40, "department": 
 Visualize AST: The AST for individual rules and the combined AST will be displayed as tree structures.
 
 Example : 
-Create the following rules:
 
-age > 40
+**Create the following rules:**:
+
+**age > 40**
 department = Marketing
 age < 25
 department = Marketing
