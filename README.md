@@ -39,8 +39,6 @@ The backend server will run on http://localhost:5000.
 
 
 
-
-
 Frontend Setup
 
 Navigate to the frontend directory:
@@ -92,13 +90,13 @@ After creating the rules, you can combine them into a single rule.
 
 Use the following JSON data for evaluation:
 
-```json
 {
   "age": 40,
   "department": "Marketing"
 }
 
+## Screenshots
 
-## screenshots
-![imp](https://github.com/user-attachments/assets/a27a36c7-adaa-422e-8803-e1c8ca530f3f)
+![imp](https://github.com/user-attachments/assets/a27a36c7-adaa-422e-8803-e1c8ca530f3)
+
 
