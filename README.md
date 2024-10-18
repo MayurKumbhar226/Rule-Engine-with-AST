@@ -73,23 +73,30 @@ Combine Rules: After creating at least two rules, click "Combine Rules" to combi
 Evaluate Rule: Enter JSON data in the textarea (e.g., {"age": 40, "department": "Marketing"}) and click "Evaluate Rule". The result (true/false) will be displayed based on whether the data satisfies the combined rule.
 
 Visualize AST: The AST for individual rules and the combined AST will be displayed as tree structures.
+## Example Usage
 
-Example : 
+### Create Rules
 
-**Create the following rules:**:
+You can create the following rules:
 
-**age > 40**:
-**department = Marketing**;
-**age < 25**:
-department = Marketing
-Combine the rules.
+1. `age > 40`
+2. `department = Marketing`
+3. `age < 25`
+4. `department = Marketing`
 
-Enter the following JSON data for evaluation:
+### Combine the Rules
+
+After creating the rules, you can combine them into a single rule.
+
+### Enter JSON Data for Evaluation
+
+Use the following JSON data for evaluation:
+
+```json
 {
   "age": 40,
   "department": "Marketing"
 }
-The evaluation result should be true if the combined AST is satisfied by the provided data.
 
 
 ## screenshots
