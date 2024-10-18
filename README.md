@@ -78,9 +78,9 @@ Example :
 
 **Create the following rules:**:
 
-**age > 40**
-department = Marketing
-age < 25
+**age > 40**:
+**department = Marketing**;
+**age < 25**:
 department = Marketing
 Combine the rules.
 
