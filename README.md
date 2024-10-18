@@ -90,7 +90,6 @@ Enter the following JSON data for evaluation:
 }
 The evaluation result should be true if the combined AST is satisfied by the provided data.
 
-```
 
 ## screenshots
 ![imp](https://github.com/user-attachments/assets/a27a36c7-adaa-422e-8803-e1c8ca530f3f)
