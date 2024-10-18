@@ -1,10 +1,10 @@
-# Rule Engine
+# Rule Engine with AST 
 
 A React application that allows users to create, combine, and evaluate rules. The rules are represented as Abstract Syntax Trees (AST) and can be visualized using a tree structure.
 
 ## Features
 
-- **Create Rule**: Allows users to input a rule in the format `field operator value` (e.g., `age > 30`). The rule is validated and converted into an AST.
+- **Create Rule**: Allows users to input a rule in the format `field operator value` (e.g., `age > 40`). The rule is validated and converted into an AST.
 - **Combine Rules**: Combines multiple rules using logical operators (`AND`, `OR`) to create a more complex rule represented as a single AST.
 - **Evaluate Rule**: Evaluates the combined AST against provided JSON data to determine if the data satisfies the rule.
 - **Visualize AST**: Displays the AST of individual rules and the combined AST as a tree structure using `react-d3-tree`.
@@ -70,23 +70,23 @@ Create Rule: Enter a rule in the input field and click "Create Rule". The rule s
 
 Combine Rules: After creating at least two rules, click "Combine Rules" to combine them into a single AST.
 
-Evaluate Rule: Enter JSON data in the textarea (e.g., {"age": 32, "department": "Sales"}) and click "Evaluate Rule". The result (true/false) will be displayed based on whether the data satisfies the combined rule.
+Evaluate Rule: Enter JSON data in the textarea (e.g., {"age": 40, "department": "Marketing"}) and click "Evaluate Rule". The result (true/false) will be displayed based on whether the data satisfies the combined rule.
 
 Visualize AST: The AST for individual rules and the combined AST will be displayed as tree structures.
 
 Example : 
 Create the following rules:
 
-age > 30
-department = Sales
+age > 40
+department = Marketing
 age < 25
 department = Marketing
 Combine the rules.
 
 Enter the following JSON data for evaluation:
 {
-  "age": 32,
-  "department": "Sales"
+  "age": 40,
+  "department": "Marketing"
 }
 The evaluation result should be true if the combined AST is satisfied by the provided data.
 
