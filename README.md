@@ -97,6 +97,6 @@ Use the following JSON data for evaluation:
 
 ## Screenshots
 
-![imp](https://github.com/user-attachments/assets/a27a36c7-adaa-422e-8803-e1c8ca530f3)
 
+![imp](https://github.com/user-attachments/assets/e97dc17c-4865-44a2-9f09-1c8ecbb70edc)
 
